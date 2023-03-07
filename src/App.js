@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+
+import BT1 from './componet/BT/BT1/BT1';
+import Basicform from '../../../ES6/TH/Basicform';
+import Form2 from '../../../ES6/TH/Form2';
+import TH1 from '../../../ES6/TH/TH1';
+import TH2 from '../../../ES6/TH/TH2';
+import TH3 from './componet/TH3';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Form2/> */}
+    {/* <TH1/>
+    <TH2/>
+    <TH3/> */}
+    <BT1/>
     </div>
   );
 }
